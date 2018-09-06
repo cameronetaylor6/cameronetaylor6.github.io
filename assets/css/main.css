@@ -1028,12 +1028,16 @@
 
 	ul.icons li {
 		display: inline-block;
-		padding: 0.675em 0em;
+		padding: 0.675em 0.5em;
 	}
 
 	.no-bullet {
 		list-style: none;
 		padding-left: 0;
+	}
+
+	u.no-bullet {
+		text-decoration: underline;
 	}
 
 	ul.hackathon li {
@@ -1045,11 +1049,6 @@
 		line-height: .8;
 	}
 
-	ul.no-bullet li a  {
+	ul.hackathon li a  {
 		text-decoration: underline;
-		/* color: blue; */
-	}
-
-	a.resume {
-		/* color: blue; */
 	}
